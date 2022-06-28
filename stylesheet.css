@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* body{
+    background-color: rgb(33, 200, 11);
+} */
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.card{
+    width: 400px;
+    background-color:pink;
+    margin: 30px;
+    border-radius: 20px 20px 0 0;
+}
+.card-image{
+    background-color: red;
+    height: 150px;
+    margin-bottom: 50px;
+    background-size: cover;
+    border-radius: 20px;
+}
+.car1{
+    background-image: url("https://images.carandbike.com/car-images/colors/audi/a6/audi-a6-myth-black-metallic.png?v=1572503278;")
+}
+.car2{
+    background-image:url("https://www.freepnglogos.com/uploads/mercedes-png/mercedes-amg-car-png-image-pngpix-9.png")
+}
+.car3{
+    background-image: url("https://i.pinimg.com/originals/91/06/02/910602979bda92b9f88144d313f52725.png")
+}
+.card h1{
+    padding: 10px;
+}
+.card p{
+    padding: 30px;
+}
+.card a{
+    background-color: black;
+    color: white;
+    padding: 30px 40px;
+    display: block;
+    text-align: center;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: aqua;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
